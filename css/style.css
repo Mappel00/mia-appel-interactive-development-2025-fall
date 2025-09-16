@@ -20,6 +20,9 @@ html{
     font-size: xx-large;
     color:black
 }
+.image{
+    font-size: x-large;
+}
 .image:hover{
     color: green;
 }
