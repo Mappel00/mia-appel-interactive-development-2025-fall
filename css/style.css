@@ -1,5 +1,10 @@
 .word-one{
-    size: 20px;
+    font-size: xx-large;
+    font-style: oblique;
+    color: blue;
+}
+.word-two{
+    font-size: large;
     font-style: oblique;
     color: blue;
 }
