@@ -16,7 +16,7 @@ html{
     color: rgb(97, 62, 224);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.image{
+.image:hover{
     color: green;
     font-size: xx-large;
 }
