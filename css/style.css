@@ -20,3 +20,8 @@ html{
     color: green;
     font-size: xx-large;
 }
+.special-paragraph:hover{
+color: deepskyblue;
+}
+
+
