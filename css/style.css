@@ -16,9 +16,12 @@ html{
     color: rgb(97, 62, 224);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.image{
+    font-size: xx-large;
+    color:black
+}
 .image:hover{
     color: green;
-    font-size: xx-large;
 }
 .special-paragraph:hover{
 color: deepskyblue;
