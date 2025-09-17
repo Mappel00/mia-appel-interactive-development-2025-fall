@@ -1,6 +1,8 @@
-.speical-paragraph{
-    color: aqua;
-}
 html{
     background-color: aquamarine;
+}
+p.{
+    color: #950000;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium';
 }
