@@ -18,15 +18,10 @@ html{
 }
 .image{
     font-size: xx-large;
-    color:rgb(37, 8, 226)
+    color:rgb(0, 164, 14)
+
 }
-.image{
-    font-size: x-large;
-}
-.image:hover{
-    font-size: xx-large;
-    color: green;
-}
+
 .special-paragraph:hover{
 color: deepskyblue;
 }
