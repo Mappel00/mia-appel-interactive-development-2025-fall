@@ -1,8 +1,19 @@
 html{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 }
 .header{
     color: #950000;
+    font-style:oblique;
     font-size: xx-large;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.words{
+    color: #950000;
+    font-style: oblique;
+}
+.head{
+    color: #950000;
+    font-style:oblique;
+    font-size:x-large;
+}
+
+
