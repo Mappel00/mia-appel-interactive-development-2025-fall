@@ -2,17 +2,17 @@ html{
     background-color: rgb(255, 255, 255);
 }
 .header{
-    color: #950000;
+    color: #e20505;
     font-style:oblique;
     font-size: xx-large;
 }
 .words{
-    color: #950000;
+    color: #e20505;
     font-style: oblique;
 }
 .head{
-    color: #950000;
-    font-style:oblique;
+    color: #e20505;
+    font-style: oblique;
     font-size:x-large;
 }
 @font-face {
@@ -22,6 +22,9 @@ html{
 h1{
     font-family: "Raynexter";
     font-size: 800px;
+}
+html{
+    background-color: black;
 }
 
 
