@@ -1,0 +1,37 @@
+html{
+    background-color: black;
+}
+#box-1{
+box-sizing: border-box;
+width: 100px;
+height: 100px;
+}
+#box-2{
+width: 50px;
+height: 50px;
+}
+img{
+ width:300px;
+}
+.words{
+    color: #e20505;
+    font-style: oblique;
+}
+.header{
+    color: #e20505;
+    font-size: xx-large; 
+}
+@font-face {
+    font-family: "Raynexter";
+    src: url(fonts/Raynexter.ttf);
+}
+h1{
+    font-family: "Raynexter";
+    font-size: 400px;
+}
+
+h3{
+      font-family: "Raynexter";
+    font-size: 20;
+    color: #e20505;  
+}
