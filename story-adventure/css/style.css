@@ -26,5 +26,7 @@ h1{
 html{
     background-color: black;
 }
-
+.grid{
+    display: inline;
+}
 
