@@ -49,3 +49,8 @@ h1{
      display: inline-block;
      margin-right: calc(2rem * 1.3);
 }
+h3{
+      font-family: "Raynexter";
+    font-size: 20;
+    color: #e20505;  
+}
