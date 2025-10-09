@@ -9,6 +9,7 @@ html{
     font-family: "Good Love";
     src: url(assets/fonts/Good\ Love.ttf);
 }
+
 .word-one{
     font-size: xx-large;
     font-style: oblique;
@@ -30,14 +31,14 @@ h1{
 h3{
     color: rgb(39, 57, 128);
     font-size: 50px;
-    font-family: "White Chalk";
+    font-family: "Good Love";
     margin-left: 2.6rem;
     margin-bottom: -1.4rem;
 }
 h4{
     color: rgb(39, 57, 128);
-    font-size: 50px;
-    font-family: "White Chalk";
+    font-size: 30px;
+    font-family: "Good Love";
     margin-bottom: -0.1rem;
     margin-left: 2.6rem;
 } 
