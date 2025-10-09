@@ -30,7 +30,7 @@ h1{
 }
 h3{
     color: rgb(39, 57, 128);
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Good Love";
     margin-left: 2.6rem;
     margin-bottom: -1.4rem;
@@ -64,6 +64,7 @@ color: deepskyblue;
     color: rgb(39, 57, 128);
     display: inline-block;
     margin-left: 2.6rem;
+    margin-bottom: -2.4rem;
 
 }
 .image-1{
@@ -86,6 +87,7 @@ color: deepskyblue;
     display: inline-block;
       color: rgb(39, 57, 128);
       margin-left: 2.6rem;
+      margin-bottom: 2.6rem;
 }
 .top-image-2{
     display: inline-block;
