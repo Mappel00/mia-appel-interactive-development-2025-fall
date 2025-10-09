@@ -13,35 +13,82 @@ html{
     font-size: xx-large;
     font-style: oblique;
     color: blue;
+    margin-left: 2.6rem;
 }
 .word-two{
     font-size: xx-large;
     font-style: oblique;
     color: rgb(59, 39, 128);
+    margin-left: 2.6rem;
 }
 h1{
     color: rgb(59, 39, 128);
     font-family: "White Chalk";
     font-size: 50px;
+    margin-left: 2.6rem;
 }
 h3{
     color: rgb(39, 57, 128);
-    font-size: 30px;
+    font-size: 50px;
     font-family: "White Chalk";
+    margin-left: 2.6rem;
+    margin-bottom: -1.4rem;
 }
 h4{
     color: rgb(39, 57, 128);
-    font-size: 30px;
+    font-size: 50px;
     font-family: "White Chalk";
+    margin-bottom: -0.1rem;
+    margin-left: 2.6rem;
 } 
-.image{
-    font-size: xx-large;
-    color:rgb(12, 93, 19)
+h5:hover{
 
+    color: rgb(39, 57, 128);
+    font-size: 30px;
+    font-family: "White Chalk"; 
+    margin-top:2rem ;
+    margin-left: 2.6rem;
 }
-.splash :hover{
-    color: rgb(59, 39, 128);
+.links{
+     margin-top:-1.1rem ;
+     margin-left: 2.6rem;
+}
+.websites{
+    margin-left: 2.6rem;
 }
 .special-paragraph:hover{
 color: deepskyblue;
+}
+.cat{
+    color: rgb(39, 57, 128);
+    display: inline-block;
+    margin-left: 2.6rem;
+
+}
+.image-1{
+    display: inline-grid;
+      color: rgb(39, 57, 128);
+      margin-left: 2.6rem;
+}
+.image-2{
+    display: inline-grid;
+     color: rgb(39, 57, 128);
+     margin-left: 2.6rem;
+}
+.image-3{
+    display: inline-grid;
+     color: rgb(39, 57, 128);
+    margin-left: 2.3rem;
+    margin-top: 2.6rem;
+}
+.top-image-1{
+    display: inline-block;
+      color: rgb(39, 57, 128);
+      margin-left: 2.6rem;
+}
+.top-image-2{
+    display: inline-block;
+      color: rgb(39, 57, 128);
+    margin-left: 15.6rem;
+    margin-top: -13.4rem;
 }
