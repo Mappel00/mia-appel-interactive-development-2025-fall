@@ -1,0 +1,26 @@
+@charset "utf-8";
+.main-grid{
+    background-color: rgb(191, 222, 191);
+    height: 1020px;
+    width: 650px;
+    position: fixed;
+}
+@font-face {
+    font-family: "White Chalk";
+    src: url(fonts/White\ Chalk.ttf);
+}
+.title{
+    margin-top: 2.6rem;
+}
+.thicker{
+    margin-top: -0.4rem;
+    width: 80%;
+    border-top-width: 30px;
+    border-color: #51842d;
+}
+h1{
+    font-family: "White Chalk";
+    font-size: 70px;
+    margin-top: -0.4rem;
+    margin-left: 6.5rem;
+}
