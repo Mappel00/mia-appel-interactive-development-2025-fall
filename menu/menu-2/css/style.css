@@ -1,26 +1,112 @@
 @charset "utf-8";
-.main-grid{
-    background-color: rgb(191, 222, 191);
-    height: 1020px;
-    width: 650px;
-    position: fixed;
+@font-face {
+    font-family: "Babyish Vacation";
+    src: url(fonts/Babyish\ Vacation.otf);
 }
 @font-face {
-    font-family: "White Chalk";
-    src: url(fonts/White\ Chalk.ttf);
+    font-family:"Simple Approach";
+    src: url(fonts/Simple\ Approach.ttf);
 }
-.title{
+.main-grid{
+    background-color: rgb(191, 222, 191);
+    height: 950px;
+    width: 650px;
+    position:fixed;
+    margin-bottom: 2.6rem;
+    
+}
+.left-side{
+    background-color: aqua;
+    width: 325px;
+    height: 600px;
+    display: inline-block;
     margin-top: 2.6rem;
 }
+.right-side{
+    background-color: rgb(10, 76, 76);
+    width: 325px;
+    height: 600px;
+    display: inline-block;
+    margin-left: -0.4rem;
+    margin-top: 2.6rem;
+     position: fixed;
+}
+.bottom-part{
+    margin-top: -7.4rem;
+    width: 650px;
+    height: 800px;
+    background-color: blue;
+}
+.ice-cream-part{
+    margin-top: -5.3rem;
+    height: 200px;
+    width: 650;
+    background-color: blueviolet;
+    position: sticky;
+}
+.ice-cream-1-side{
+display: inline-block;
+;
+}
+.ice-cream-2-side{
+display: inline-block;
+}
+.ice-cream-3-side{
+display: inline-block;
+}
+.ice-cream-4-side{
+display: inline-block;
+}
+.title{
+    margin-top: 1.6rem;
+}
 .thicker{
-    margin-top: -0.4rem;
+    margin-top: -2.4rem;
     width: 80%;
-    border-top-width: 30px;
+    border-top-width: 10px;
     border-color: #51842d;
 }
+p{
+    font-size: 15px;
+    font-family:"Simple Approach";
+    margin-left: 2.6rem;
+}
+p{
+    font-size: 15px;
+    font-family:"Simple Approach";
+    margin-left: 2.6rem;
+}
 h1{
-    font-family: "White Chalk";
-    font-size: 70px;
+    color: rgb(148, 53, 99);
+    font-family: "Babyish Vacation";
+    font-size: 40px;
     margin-top: -0.4rem;
-    margin-left: 6.5rem;
+    margin-left: 24.9rem;
+    margin-bottom: -0.8rem;
+}
+h2{
+    color: rgb(44, 83, 38);
+    font-family: "Babyish Vacation";
+    font-size: 80px;
+    margin-top: -0.4rem;
+    margin-left: 20.4rem;
+}
+h3{
+    font-family:"Simple Approach";
+    margin-left: 1.2rem;
+    margin-bottom: -0.4rem;
+    font-size: 25px;
+}
+h4{
+    font-family:"Simple Approach";
+    font-size: 25px;
+  
+}
+h5{
+    font-family:"Simple Approach";
+    margin-left: 1.4rem;
+    margin-top: 2.6rem;
+    margin-bottom: -0.4rem;
+    font-size: 25px;
+
 }
