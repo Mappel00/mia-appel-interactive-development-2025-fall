@@ -1,15 +1,22 @@
 @charset "utf-8";
 @media screen and (max-width:1080px) and (min-width:960px){
-  div.box{
+  .main-grid{
     background-color:rgba(255, 0, 0, 0);
     width:calc(50% - 2.6rem);
     background-color:black;
     height:26rem;
   }
-/*These css rules that will only be activated when the page is viewed on a screen and when the browser window is wider than 960px and narrower than 1080px.*/
 } 
 @media screen and (max-width:960px) and (min-width:720px){
-  div.box{
+  .top-part{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(50% - 2.6rem);
+    background-color:black;
+    height:26rem;
+  }
+}
+  @media screen and (max-width:960px) and (min-width:720px){
+  .title{
     background-color:rgba(255, 0, 0, 0);
     width:calc(50% - 2.6rem);
     background-color:black;
@@ -19,7 +26,21 @@
 } 
 
 @media screen and (max-width:720px) and (min-width:480px){
-  div.box{
+  .bottom-part{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+}
+  @media screen and (max-width:720px) and (min-width:480px){
+  .left-side{
+    background-color:rgba(255, 0, 0, 0);
+    width:calc(100% - 2.6rem);
+    height:26rem;
+  }
+}
+ @media screen and (max-width:720px) and (min-width:480px){
+  .right-side{
     background-color:rgba(255, 0, 0, 0);
     width:calc(100% - 2.6rem);
     height:26rem;
