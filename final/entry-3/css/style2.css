@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: "FUNKOZ";
+    src: url(fonts/funkoz/FUNKOZ.otf);
+}
+#main-part{
+    height: 300px;
+    width: 300px;
+   color: rgb(56, 90, 56);
+}
+h1{
+    font-family: "FUNKOZ";
+    font-size: 44px;
+    color: rgb(136, 241, 136);
+}

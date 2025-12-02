@@ -1,0 +1,171 @@
+@charset "utf-8";
+@font-face {
+    font-family: "FUNKOZ";
+    src: url(fonts/FUNKOZ.ttf);
+}
+
+h1 {
+    font-family: "FUNKOZ";
+    font-size: 90px;
+    color:rgb(100, 67, 131);
+    margin-top: 1.6rem;
+    animation-name: my-animation;
+    animation-duration: 6s;
+    animation-iteration-count:6;
+    
+     
+    
+}
+h2{
+     font-family: "FUNKOZ";
+    font-size: 90px;
+    color: rgb(134, 89, 175);
+    margin-top: 1.6rem;
+    animation-name: my-animation-2;
+     animation-delay: 2s;
+    animation-duration: 4s;
+    animation-iteration-count:4; 
+    
+    
+}
+h3{
+     font-family: "FUNKOZ";
+    font-size:90px;
+    color: rgb(136, 69, 198);
+    margin-top: 1.6rem;
+    animation-name: my-animation-3;
+    animation-duration: 4s;
+     animation-delay: 2s;
+     animation-iteration-count:3;
+   
+    
+}
+h4{
+     font-family: "FUNKOZ";
+    font-size: 70px;
+    color:  rgb(110, 95, 125);
+    margin-top: 1.4rem;
+    animation-name: my-animation-4;
+    animation-duration: 1s;
+     animation-delay: 5s;
+     animation-iteration-count:4;
+    
+}
+h5{
+     font-family: "FUNKOZ";
+    font-size: 100px;
+    color: rgb(97, 78, 155);
+    margin-top: 1.6rem;
+    animation-name: my-animation-5;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-iteration-count:2;
+ 
+    
+}
+.main{
+    background-color:rgb(205, 186, 221);
+    height: 1666px;
+    width: 1666px;
+     animation-name: my-animation-6;
+    animation-duration: 6s;
+    animation-iteration-count:4;
+}
+.box-1{
+   
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.box-2{
+  
+    width: 790px;
+    height: 350px;
+    display: inline-block;
+}
+.box-3{
+   
+    width: 420px;
+    height: 450px;
+    display: inline-block;
+
+}
+.box-4{
+  
+    width: 800px;
+    height: 400px;
+    display: inline-block;
+     margin-left: 1.5rem;
+     margin-top: 1.6rem;
+     
+}
+.box-5{
+    
+    width: 810px;
+    height: 540px;
+    display: inline-block;
+     margin-top: 1.6rem;
+}
+
+@keyframes my-animation {
+    from{
+        font-size: 40px;
+    }
+    to{
+       font-size: 60px;
+    }    
+}
+@keyframes my-animation-2 {
+    from{
+        font-size: 80px;
+    }
+    to{
+       font-size: 30px;
+    }  
+} 
+@keyframes my-animation-3 {
+    from{
+        font-size: 30px;
+    }
+    to{
+       font-size: 100px;
+    }  
+} 
+@keyframes my-animation-4 {
+    from{
+        font-size: 20px;
+    }
+    to{
+       font-size: 40px;
+    }  
+} 
+@keyframes my-animation-5 {
+    from{
+        font-size: 90px;
+    }
+    to{
+       font-size: 70px;
+    }  
+} 
+@keyframes my-animation-6 {
+    0%{
+        background-color:rgb(205, 186, 221);
+    }
+    10%{
+       background-color: rgb(85, 75, 94);
+    }  
+     40%{
+        background-color:rgb(205, 186, 221);
+    }
+    60%{
+       background-color: rgb(85, 75, 94);
+    } 
+     80%{
+       background-color: rgb(85, 75, 94);
+    } 
+     100%{
+       background-color: rgb(85, 75, 94);
+    } 
+} 

@@ -1,0 +1,271 @@
+
+@font-face {
+    font-family: "FUNKOZ";
+    src: url(fonts/FUNKOZ.ttf);
+}
+@font-face {
+    font-family: "AntipastoPro";
+    src: url(fonts/AntipastoPro_trial.ttf);
+}
+@font-face {
+    font-family: "Manbow";
+    src: url(fonts/Manbow\ Clear.otf);
+}
+html{
+    background-color:  rgb(67, 67, 67);
+}
+h1{
+    font-family: "FUNKOZ";
+    font-size: 120px;
+    margin-left: 19.6rem;
+    margin-top: 2.6rem;
+    color: #bda3cf;
+    animation-name: my-animation-6;
+    animation-duration: 20s;
+}
+h2{
+    font-family: "Manbow";
+    margin-top: 6.6rem;
+    margin-left: 5.6rem;
+    font-size: 40px;
+    color: #eed6ff;
+}
+h3{
+    font-family: "Manbow";
+    margin-top: 5.6rem;
+    margin-left: 17.6rem;
+   color: #eed6ff;
+   font-size: 40px; 
+}
+h4{
+    font-family: "Manbow";
+     margin-top: 5.6rem;
+    margin-left: 8.6rem;
+    font-size: 40px;
+    color: #eed6ff;
+}
+h5{
+    font-family: "Manbow";
+     margin-top: 9.6rem;
+    margin-left: 27.6rem;
+    font-size: 40px;
+    color: #eed6ff;
+}
+h6{
+    font-family: "Manbow";
+    margin-top: 10.6rem;
+    margin-left: 11.6rem;
+    font-size: 40px;
+    color: #eed6ff;
+}
+p{
+    font-family: "FUNKOZ";
+    font-size: 60px;
+    color: rgb(67, 67, 67); 
+    margin-top: 2.6rem;
+    margin-left: 31.6rem;
+    animation-name: my-animation-7;
+    animation-duration: 20s;
+}
+.subheader{
+    width: 1667px;
+    height: 118px;
+    background-color: #bda3cf;
+    margin-top: -3.4rem;
+    position:fixed;
+}
+.entry-1{
+    margin-top: 3.6rem;
+    width: 500px;
+    height: 333px;
+    background-color: rgb(126, 104, 138);
+    display: inline-block;
+     animation-name: my-animation-1;
+    animation-duration: 20s;
+}
+.entry-2{
+        margin-top: -20.4rem;
+    width: 464px;
+    height: 250px;
+    background-color: rgb(84, 54, 111);
+    margin-left: 22.6rem;
+    position: fixed;
+     animation-name: my-animation-2;
+    animation-duration: 20s;
+}
+.entry-4{
+  margin-top: -20.5rem;
+    width: 841px;
+    height: 377px;
+    background-color: rgb(161, 142, 175);
+    margin-left: 51.6rem;
+    position: fixed;
+     animation-name: my-animation-3;
+    animation-duration: 20s;
+}
+.entry-3{
+      margin-top: -5.4rem;
+    width: 666px;
+    height: 396px;
+    background-color: rgb(80, 87, 137);
+    margin-left: 0rem;
+    position: fixed;
+     animation-name: my-animation-4;
+    animation-duration: 20s;
+}
+.entry-5{
+      margin-top: -5.4rem;
+    width:1027px;
+    height: 400px;
+    background-color: rgb(137, 80, 121);
+    margin-left: 40rem;
+    position: fixed;
+     animation-name: my-animation-5;
+    animation-duration: 20s; 
+}
+.main{
+    background-color:rgb(67, 67, 67);
+    height: 1666px;
+    width: 1666px;
+    position:fixed;
+}
+@keyframes my-animation-1 {
+    0%{
+        background-color: rgb(126, 104, 138);
+    }
+    10%{
+       background-color: rgb(85, 75, 94);
+    }  
+     40%{
+        background-color:rgb(173, 153, 188);
+    }
+    60%{
+       background-color: rgb(85, 75, 94);
+    } 
+     80%{
+       background-color: rgb(76, 51, 98);
+    } 
+     100%{
+       background-color: rgb(126, 104, 138);
+    } 
+} 
+@keyframes my-animation-2 {
+    0%{
+        background-color: rgb(84, 54, 111);
+    }
+    20%{
+       background-color: rgb(147, 55, 233);
+    }  
+     40%{
+        background-color:rgb(162, 56, 243);
+    }
+    70%{
+       background-color: rgb(121, 65, 169);
+    } 
+     90%{
+       background-color: rgb(65, 54, 75);
+    } 
+     100%{
+       background-color: rgb(84, 54, 111);
+    } 
+} 
+@keyframes my-animation-3 {
+    0%{
+        background-color:rgb(161, 142, 175);
+    }
+    15%{
+       background-color: rgb(193, 127, 255);
+    }  
+     35%{
+        background-color:rgb(131, 35, 204);
+    }
+    45%{
+       background-color: rgb(216, 190, 239);
+    } 
+     70%{
+       background-color: rgb(114, 40, 182);
+    } 
+     100%{
+       background-color: rgb(161, 142, 175);
+    } 
+} 
+@keyframes my-animation-4 {
+    0%{
+        background-color:rgb(80, 87, 137);
+    }
+    10%{
+       background-color: rgb(115, 104, 125);
+    }  
+     40%{
+        background-color:rgb(193, 145, 229);
+    }
+    60%{
+       background-color: rgb(216, 190, 239);
+    } 
+     80%{
+       background-color: rgb(67, 0, 130);
+    } 
+     100%{
+       background-color: rgb(80, 87, 137);
+    } 
+} 
+@keyframes my-animation-5 {
+    0%{
+        background-color:rgb(137, 80, 121);
+    }
+    10%{
+       background-color: rgb(57, 46, 67);
+    }  
+     40%{
+        background-color:rgb(128, 53, 186);
+    }
+    60%{
+       background-color: rgb(141, 130, 151);
+    } 
+     80%{
+       background-color: rgb(134, 88, 177);
+    } 
+     100%{
+       background-color:rgb(137, 80, 121);
+    } 
+} 
+@keyframes my-animation-6 {
+    0%{
+        color:#bda3cf;
+    }
+    10%{
+       color: rgb(68, 114, 149);
+    }  
+     40%{
+        color:rgb(95, 186, 53);
+    }
+    60%{
+       color: rgb(197, 204, 97);
+    } 
+     80%{
+      color: rgb(177, 88, 88);
+    } 
+     100%{
+       color:#bda3cf;
+    } 
+} 
+@keyframes my-animation-7 {
+    0%{
+         color: rgb(67, 67, 67);
+    }
+    10%{
+       color: rgb(149, 149, 68);
+    }  
+     40%{
+        color:rgb(186, 53, 53);
+    }
+    60%{
+       color: rgb(97, 97, 204);
+    } 
+     80%{
+      color: rgb(41, 124, 120);
+    } 
+     100%{
+       color: rgb(67, 67, 67);
+    } 
+} 

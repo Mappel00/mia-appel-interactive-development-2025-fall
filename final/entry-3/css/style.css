@@ -1,0 +1,20 @@
+@charset "utf-8";
+html{
+    background-color: rgb(56, 90, 56);
+
+}
+@font-face {
+    font-family: "FUNKOZ";
+    src: url(fonts/FUNKOZ.ttf);
+}
+.main-part{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(56, 90, 56);
+}
+.title{
+    font-family: "FUNKOZ";
+    font-size: 44px;
+    color: rgb(136, 241, 136);
+}

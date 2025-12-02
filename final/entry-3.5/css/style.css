@@ -1,0 +1,134 @@
+@charset "utf-8";
+@font-face {
+    font-family: "FUNKOZ";
+    src: url(fonts/FUNKOZ.ttf);
+}
+html{
+    background-color: rgb(152, 165, 200); ;
+}
+.main-part{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.typewriting-target{
+    font-family: "FUNKOZ";
+    color: green;
+    font-size: 80px;
+     margin-top: 2.6rem;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+    
+
+}
+.word-1{
+    font-family: "FUNKOZ";
+    color: green;
+    font-size: 45px;
+    margin-top: 6.6rem;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+    margin-bottom: 16.6rem;
+    display: inline-block;
+    animation-name: animation-word-1; 
+    animation-duration: 2s;
+}
+.word-2{
+    font-family: "FUNKOZ";
+    color: green;
+    font-size: 45px;
+     margin-top: 2.6rem;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+    margin-bottom: 16.6rem;
+    display: inline-block;
+    animation-name: animation-word-2; 
+    animation-duration: 2s;
+}
+.word-3{
+    font-family: "FUNKOZ";
+    color: green;
+    font-size: 45px;
+     margin-top: 2.6rem;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+    margin-bottom: 16.6rem;
+    display: inline-block;
+    animation-name: animation-word-3; 
+    animation-duration: 2s;
+}
+.word-4{
+    font-family: "FUNKOZ";
+    color: green;
+    font-size: 45px;
+     margin-top: 2.6rem;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+    margin-bottom: 16.6rem;
+    display: inline-block;
+    animation-name: animation-word-4; 
+    animation-duration: 2s;
+}
+.word-5{
+    font-family: "FUNKOZ";
+    color: green;
+    font-size: 45px;
+     margin-top: 2.6rem;
+    margin-left: 2.6rem;
+    margin-right: 2.6rem;
+    margin-bottom: 16.6rem;
+    display: inline-block;
+    animation-name: animation-word-5; 
+    animation-duration: 2s;
+}
+@keyframes animation-word-1{
+    0%{
+    
+        transform:rotate(22deg);
+    }
+     100%{
+       transform:rotate(360deg);
+    }
+    
+}
+@keyframes animation-word-2{
+    0%{
+    
+        transform:rotate(22deg);
+    }
+     100%{
+       transform:rotate(360deg);
+    }
+    
+}
+@keyframes animation-word-3{
+    0%{
+    
+        transform:rotate(22deg);
+    }
+     100%{
+       transform:rotate(360deg);
+    }
+    
+}
+@keyframes animation-word-4{
+    0%{
+    
+        transform:rotate(22deg);
+    }
+     100%{
+       transform:rotate(360deg);
+    }
+    
+}
+@keyframes animation-word-5{
+    0%{
+    
+        transform:rotate(22deg);
+    }
+     100%{
+       transform:rotate(360deg);
+    }
+    
+}
