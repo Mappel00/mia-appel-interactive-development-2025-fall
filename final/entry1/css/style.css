@@ -1,0 +1,68 @@
+@charset "utf-8";
+@font-face {
+    font-family: "FUNKOZ";
+    src: url(fonts/FUNKOZ.ttf);
+}
+html{
+    background-color: rgb(91, 119, 141);
+      animation-name: my-animation-1;
+    animation-duration: 3s;
+    animation-iteration-count:2; 
+}
+.main-part{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    color: rgb(75, 27, 27);
+ 
+}
+
+#typewriting1{
+    font-family: "FUNKOZ";
+    color: rgb(92, 28, 28);
+    font-size: 100px;
+
+}
+
+#typewriting2{
+    font-family: "FUNKOZ";
+    color: rgb(129, 21, 21);
+    font-size: 70px;
+}
+
+#typewriting3{
+    font-family: "FUNKOZ";
+    color: rgb(72, 17, 17);
+    font-size: 70px;
+}
+
+#typewritng1, #typewritng2, #typewriting3{
+    margin-top: 5.6rem;
+    
+}
+@keyframes my-animation-1 {
+    0%{
+        background-color: rgb(92, 28, 28);
+    }
+    10%{
+       background-color: rgb(30, 58, 80);
+    }  
+     30%{
+        background-color: rgb(92, 28, 28);
+    }
+    40%{
+      background-color: rgb(30, 58, 80);
+    } 
+     60%{
+       background-color: rgb(92, 28, 28);
+    } 
+     80%{
+       background-color: rgb(44, 91, 126);
+    } 
+    100%{
+       background-color: rgb(91, 119, 141);
+    } 
+} 
+
+
+

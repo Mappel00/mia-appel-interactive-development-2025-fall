@@ -1,4 +1,4 @@
-let MyString = "My Knick Knack Collection";
+let MyString = "Marvel Memories";
 
 let string1TotalCharacterNumber = MyString.length; 
 
@@ -13,7 +13,7 @@ let stringIntercal = setInterval(function(){
     }
 }, 70);
 
-let MyString2 = "You might be anothers trash or unwanted. But to me you hold a story that calls to me.";
+let MyString2 = "You have been apart of my life since I was a young little girl whose dream was to be able to fly. A way to dream and go away to a far away place. ";
 
 let string2TotalCharacterNumber = MyString2.length; 
 
@@ -28,7 +28,7 @@ let stringIntercal2 = setInterval(function(){
     }
 }, 70);
 
-let MyString3 = "You might have lost a home but with me you have gained a new family among the other lost items that I have collected over the years.";
+let MyString3 = "Fighting against evil villians and saving the day. Feeling the victory of beating the bad guy and saving the people who needed them. Learning about you has given me a place to escape the real world and to travel into the world of fiction.";
 
 let string3TotalCharacterNumber = MyString3.length; 
 

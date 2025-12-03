@@ -4,35 +4,35 @@
     src: url(fonts/FUNKOZ.ttf);
 }
 html{
-    background-color: rgb(196, 205, 229); 
+    background-color: rgb(215, 219, 158); 
 }
 .main-part{
     height: 100%;
     width: 100%;
     position: fixed;
-    color: rgb(136, 136, 136);
+    color: rgb(60, 109, 104);
 }
 
 #typewriting1{
     font-family: "FUNKOZ";
-    color: rgb(128, 0, 41);
+    color: rgb(99, 26, 80);
     font-size: 100px;
 }
 
 #typewriting2{
     font-family: "FUNKOZ";
-    color: rgb(128, 0, 41);
+ color: rgb(99, 26, 80);;
     font-size: 60px;
 }
 
 #typewriting3{
     font-family: "FUNKOZ";
-    color: rgb(128, 0, 41);
+   color: rgb(99, 26, 80);
     font-size: 60px;
 }
 
 #typewritng1, #typewritng2, #typewriting3{
-    margin-top: 2.6rem;
+    margin-top: 6.6rem;
 }
 
 

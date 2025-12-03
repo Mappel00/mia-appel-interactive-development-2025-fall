@@ -1,4 +1,4 @@
-let MyString = "My Knick Knack Collection";
+let MyString = "Art Stuff Collection";
 
 let string1TotalCharacterNumber = MyString.length; 
 
@@ -13,7 +13,7 @@ let stringIntercal = setInterval(function(){
     }
 }, 70);
 
-let MyString2 = "You might be anothers trash or unwanted. But to me you hold a story that calls to me.";
+let MyString2 = "My collection of art stuff started off small such as a pen here and there but the longer and farther I got into art the more intense my collection got. Now going from one pen to a whole water color palette and brushes with paper. ";
 
 let string2TotalCharacterNumber = MyString2.length; 
 
@@ -28,7 +28,7 @@ let stringIntercal2 = setInterval(function(){
     }
 }, 70);
 
-let MyString3 = "You might have lost a home but with me you have gained a new family among the other lost items that I have collected over the years.";
+let MyString3 = "With those memories comes the times where I went shopping with my family and how they were confused what each item was used for. My collection is the memories that art brought to me and the happiness that I have when using that stuff to create art. ";
 
 let string3TotalCharacterNumber = MyString3.length; 
 
