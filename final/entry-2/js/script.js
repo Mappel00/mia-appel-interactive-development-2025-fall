@@ -1,4 +1,3 @@
-$("word-1").hover(function(){
-  $(this).css("animation-word-1");
-});
-
+$("#title").on("click", function(){
+    $("#title").toggleClass("text-shadow")
+})
