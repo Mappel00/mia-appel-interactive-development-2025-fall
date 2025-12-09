@@ -42,3 +42,10 @@ let stringIntercal3 = setInterval(function(){
         clearInterval(string3Interval);
     }
 }, 70);
+
+
+$(".main-part").hide();
+
+$("#button").on("click", function(){
+   $(".main-part").show();
+})
