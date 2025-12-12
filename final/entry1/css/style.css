@@ -9,6 +9,15 @@ html{
     animation-duration: 3s;
     animation-iteration-count:2; 
 }
+
+@media screen and (max-width:1080px) and (min-width:960px){
+  div.box{
+    background-color: rgb(91, 119, 141);
+    width:calc(50% - 2.6rem);
+    background-color:black;
+    height:26rem;
+  }}
+  
 .main-part{
     height: 100%;
     width: 100%;
